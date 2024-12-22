@@ -1,0 +1,48 @@
+.main__hero {
+  background-image: url('./assets/bg.png' ) , url('./assets/circles.png');
+  background-size: cover;
+  background-position: center;
+  background-size:100% 100vh ;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  /* position: absolute; */
+}
+
+.connect__wallet {
+  width: 159px;
+  height: 47px;
+  border-radius: 100px ;
+  opacity: 0px;  
+background: linear-gradient(96.31deg, #E4B40D 8.17%, rgba(255, 230, 143, 0.84) 110.82%);
+
+}
+
+.content__container {
+  width: 906px;
+/* height: 277px; */
+gap: 0px;
+opacity: 0px;
+position: absolute;
+}
+
+.content__header{
+  font-family: Neue Machina;
+font-size: 75px;
+font-weight: 800;
+line-height: 72.37px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.content__desc{
+  font-family: Neue Machina;
+font-size: 25px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
