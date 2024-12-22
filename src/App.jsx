@@ -6,11 +6,10 @@ function App() {
   return (
     <>
     <Routes>
+    <Route path="/signin" element={<Signin />}  />
       <Route path="/" element={<Homepage />} />
-      <Route path="/signin" element={<Signin />}  />
     </Routes>
     </>
   );
 }
-
 export default App;
